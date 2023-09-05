@@ -1,10 +1,9 @@
 {
 	"info": {
-		"_postman_id": "76ae05c8-8f92-4a34-8058-aa6ff01b183a",
+		"_postman_id": "9b296556-fa8f-4a49-b120-e8c6bcf464c3",
 		"name": "Swagger Petstore",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "29533738",
-		"_collection_link": "https://ikenna-team.postman.co/workspace/Team-Workspace~3aa4acc1-de0e-466e-859b-81d2d88cb1c1/collection/29533738-76ae05c8-8f92-4a34-8058-aa6ff01b183a?action=share&source=collection_link&creator=29533738"
+		"_uid": "29533738-9b296556-fa8f-4a49-b120-e8c6bcf464c3"
 	},
 	"item": [
 		{
@@ -15,6 +14,7 @@
 					"item": [
 						{
 							"name": "Info for a specific pet",
+							"id": "8b76403d-692d-4686-b8b9-f55a1fc1d2d9",
 							"request": {
 								"method": "GET",
 								"header": [
@@ -42,6 +42,7 @@
 							},
 							"response": [
 								{
+									"id": "f0232d50-3aca-4915-8e3d-34426e0cdb9f",
 									"name": "Expected response to a valid request",
 									"originalRequest": {
 										"method": "GET",
@@ -70,6 +71,7 @@
 									"status": "OK",
 									"code": 200,
 									"_postman_previewlanguage": "json",
+									"_postman_previewtype": "html",
 									"header": [
 										{
 											"key": "Content-Type",
@@ -80,6 +82,7 @@
 									"body": "{\n  \"id\": \"<long>\",\n  \"name\": \"<string>\",\n  \"tag\": \"<string>\"\n}"
 								},
 								{
+									"id": "c95b0306-ec15-4db2-8e02-f89359ef97b7",
 									"name": "unexpected error",
 									"originalRequest": {
 										"method": "GET",
@@ -108,6 +111,7 @@
 									"status": "Internal Server Error",
 									"code": 500,
 									"_postman_previewlanguage": "json",
+									"_postman_previewtype": "html",
 									"header": [
 										{
 											"key": "Content-Type",
@@ -119,10 +123,12 @@
 								}
 							]
 						}
-					]
+					],
+					"id": "e20ad82d-51d9-475b-bad4-330bfe9b4ecf"
 				},
 				{
 					"name": "List all pets",
+					"id": "f85e7192-9b2c-4de4-8eb6-8ba532907606",
 					"request": {
 						"method": "GET",
 						"header": [
@@ -150,6 +156,7 @@
 					},
 					"response": [
 						{
+							"id": "6d392998-1304-4861-95ab-fe3b29db10a2",
 							"name": "A paged array of pets",
 							"originalRequest": {
 								"method": "GET",
@@ -179,6 +186,7 @@
 							"status": "OK",
 							"code": 200,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -197,6 +205,7 @@
 							"body": "[\n  {\n    \"id\": \"<long>\",\n    \"name\": \"<string>\",\n    \"tag\": \"<string>\"\n  },\n  {\n    \"id\": \"<long>\",\n    \"name\": \"<string>\",\n    \"tag\": \"<string>\"\n  }\n]"
 						},
 						{
+							"id": "41797e2e-2d58-4397-8b5e-47257199aa96",
 							"name": "unexpected error",
 							"originalRequest": {
 								"method": "GET",
@@ -226,6 +235,7 @@
 							"status": "Internal Server Error",
 							"code": 500,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -239,6 +249,7 @@
 				},
 				{
 					"name": "Create a pet",
+					"id": "797b5bc6-a6f4-48af-bbcd-5f6def3dc488",
 					"request": {
 						"method": "POST",
 						"header": [
@@ -259,6 +270,7 @@
 					},
 					"response": [
 						{
+							"id": "bfe88f4f-8cb7-499f-ab68-8e02cb76e467",
 							"name": "Null response",
 							"originalRequest": {
 								"method": "POST",
@@ -276,11 +288,13 @@
 							"status": "Created",
 							"code": 201,
 							"_postman_previewlanguage": "text",
+							"_postman_previewtype": "html",
 							"header": [],
 							"cookie": [],
 							"body": ""
 						},
 						{
+							"id": "acf336e7-e32e-4b80-86af-69c1c43ecd21",
 							"name": "unexpected error",
 							"originalRequest": {
 								"method": "POST",
@@ -303,6 +317,7 @@
 							"status": "Internal Server Error",
 							"code": 500,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -314,11 +329,13 @@
 						}
 					]
 				}
-			]
+			],
+			"id": "ed015106-fcd0-47ba-b34f-106295475f8c"
 		}
 	],
 	"variable": [
 		{
+			"id": "dc363981-04cf-4c79-b565-49235e64b7c6",
 			"key": "baseUrl",
 			"value": "http://petstore.swagger.io/v1"
 		}
